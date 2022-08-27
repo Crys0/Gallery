@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let allImages = document.querySelectorAll("img");
   let currentImage = 0;
+  let allCircles = document.querySelectorAll(".circle");
+  let currentCircle = 0;
 
   BUTTON_RIGHT.addEventListener("click", () => {
     if (currentImage > allImages.length - 2) {
@@ -15,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
       allImages[currentImage + 1].classList.remove("invisible");
       currentImage++;
     }
+    
   });
 
   BUTTON_LEFT.addEventListener("click", () => {
