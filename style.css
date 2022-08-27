@@ -9,10 +9,11 @@ body {
   overflow: hidden;
 }
 
-.can{
+.can {
   min-height: 100vh;
   min-width: 100vw;
-  margin-top: 5%;
+  margin-top: 3%;
+  padding-top: 3%;
 }
 
 .container {
@@ -100,4 +101,10 @@ body {
 
 .Active {
   opacity: 1;
+  transform: scale(1.2);
+}
+
+.circle:hover {
+  cursor: pointer;
+  transform: scale(1.3);
 }
